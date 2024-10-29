@@ -224,3 +224,7 @@ div[for="dots"] > div:first-child{
 div::-webkit-scrollbar {
     display: none;
 }
+
+.modal-text{
+    font-size: 18px;
+}

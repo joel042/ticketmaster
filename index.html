@@ -263,6 +263,28 @@
     border-bottom: 5px solid #fff; /* now spans 50% */
 }
 
+.ticket-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #026CDF;
+}
+
+.ticket-title {
+    text-align: center;
+    font-weight: 600;
+}
+
+.info-icon {
+    position: absolute;
+    /* right: 0; */
+    left: 310px;
+   
+    width: 20px; /* adjust as needed */
+    cursor: pointer;
+}
+
 
 
 </style>
@@ -300,9 +322,15 @@
         <div for="cards" id="cards">
             
                 <div for="card">
-                    <div for="head" style="text-align: center;">
+                    <!-- <div for="head" style="text-align: center;">
                         Standard Ticket
-                    </div>
+                    </div> -->
+                    <div for="head" class="ticket-header">
+    <span class="ticket-title">Standard Ticket</span>
+    <img src="info.png" alt="Info" class="info-icon">
+</div>
+
+                    
                     <div for="head_info">
                         <div>
                             <div>SEC</div>

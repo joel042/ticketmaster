@@ -36,7 +36,8 @@ button {
 }
 
 div[for="top-bar"] {
-    background-color: #1f262d;
+    /* background-color: #1f262d; */
+      background-color: #000;
     height: 50px;
     width: 100%;
     position: relative;

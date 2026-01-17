@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta name="theme-color" content="#1F262D">
+    <meta name="theme-color" content="#000">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -245,6 +245,24 @@
         border-radius: 0;
     }
 
+/* new css */
+    .top2-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+.top2-bar .tab {
+    padding: 15px 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.top2-bar .tab.active {
+    border-bottom: 5px solid #fff; /* thick bottom border */
+}
+
+
 </style>
 <body>
     <div for="top-bar">
@@ -258,6 +276,15 @@
             <span>Help</span>
         </div>
     </div>
+     <div class="top2-bar">
+    <div class="tab active">
+        <span>MY TICKETS</span>
+    </div>
+    <div class="tab">
+        <span>ADD-ONS</span>
+    </div>
+</div>
+
     <!-- <div id="bnav" style="border-bottom: 1px solid #ababab;visibility: hidden;">
         <div id="hc">
             <img src="https://www.ticketmaster.com/s3images/healthcheck/Health_Check_Small.svg" alt="health check icon">

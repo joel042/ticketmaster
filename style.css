@@ -86,7 +86,8 @@ div[for="card"] {
 }
 
 div[for="head"] {
-    background-color: #155fc8;
+    /* background-color: #155fc8; */
+     background-color: #004fea;
     border-radius: 12px 12px 0 0;
     padding: 10px 8px;
     color:#fff;
@@ -97,7 +98,7 @@ div[for="head"] {
 }
 
 div[for="head_info"] {
-    background-color: #026cdf;
+    background-color: #004fea;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 4px;
